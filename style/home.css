@@ -1,29 +1,28 @@
 .home {
     text-align: center;
+    padding: 0 0 70px 0;
 }
 
 .home-title {
     font-size: 45px;
     font-weight: 700;
-    color: var(--color-main-black);
     margin: 45px 0 25px 0;
 }
 
-.home-discription {
+.home-description {
     font-size: 18px;
     font-weight: 500;
-    color: var(--color-main-black);
     margin: 0 0 35px 0;
 }
 
-.img {
+.home-img {
     width: 100%;
     height: 535px;
     object-fit: cover;
 }
 
 @media (max-width: 480px) {
-    
+
     .home {
         text-align: left;
     }
@@ -33,7 +32,7 @@
         font-size: 32px;
     }
     
-    .home-discription {
+    .home-description {
         font-size: 14px;
     }
 }
